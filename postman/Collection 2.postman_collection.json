@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "94d29f04-3258-440f-9186-26072336488b",
+		"name": "Collection 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27161005",
+		"_collection_link": "https://planetary-crater-592368.postman.co/workspace/develhope~237ca186-b00c-480f-a8f0-e38dae7ff32e/collection/27161005-94d29f04-3258-440f-9186-26072336488b?action=share&creator=27161005&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Dummy REST API Example",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummy.restapiexample.com/api/v1/employee/1?id=14",
+					"protocol": "https",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "14"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"John\", \"salary\": \"40000\", \"age\":\"35\"}`"
+				},
+				"url": {
+					"raw": "https://dummy.restapiexample.com/api/v1/create",
+					"protocol": "https",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

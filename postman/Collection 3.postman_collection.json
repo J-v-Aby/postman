@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d2476d77-203f-452d-adda-6a1479546d5d",
+		"name": "Collection 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27161005",
+		"_collection_link": "https://planetary-crater-592368.postman.co/workspace/develhope~237ca186-b00c-480f-a8f0-e38dae7ff32e/collection/27161005-d2476d77-203f-452d-adda-6a1479546d5d?action=share&creator=27161005&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Agify.io",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.agify.io?name[]=lucy&name[]=bob&name[]=alice",
+					"protocol": "https",
+					"host": [
+						"api",
+						"agify",
+						"io"
+					],
+					"query": [
+						{
+							"key": "name[]",
+							"value": "lucy"
+						},
+						{
+							"key": "name[]",
+							"value": "bob"
+						},
+						{
+							"key": "name[]",
+							"value": "alice"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

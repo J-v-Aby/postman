@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "3d689e93-8706-4974-9147-de026e88f560",
+		"name": "Collection 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27161005",
+		"_collection_link": "https://planetary-crater-592368.postman.co/workspace/develhope~237ca186-b00c-480f-a8f0-e38dae7ff32e/collection/27161005-3d689e93-8706-4974-9147-de026e88f560?action=share&creator=27161005&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "get a single cocktail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.thecocktaildb.com/api.php?s=Margherita&i=vodka",
+					"protocol": "https",
+					"host": [
+						"www",
+						"thecocktaildb",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "Margherita"
+						},
+						{
+							"key": "i",
+							"value": "vodka"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
